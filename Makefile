@@ -3,7 +3,7 @@ CC=gcc
 CFLAGS=-Ofast -g -Wall
 LDFLAGS=-lm
 OPTFLAGS=-O2 -g -Wall
-OBJS_COMMON=kernel.o rdtsc.o perf_event.c
+OBJS_COMMON=kernel.o rdtsc.o perf_event.o
 
 all: measure
 

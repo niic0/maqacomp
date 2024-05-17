@@ -3,7 +3,7 @@
 #include <stdint.h>
 
 // Taille des matrices
-#define SIZE 150
+#define SIZE 300
 
 extern uint64_t rdtsc();
 
